@@ -2,7 +2,6 @@
 
 <body>
 
-  <p>Before the script...</p>
 
   <script>
     alert( 'Welcome to ALS!' );

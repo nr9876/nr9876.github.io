@@ -7,17 +7,35 @@
     alert( 'Welcome to ALS!' );
   </script>
 
-<p id="AlicesBoard"> Alice's board </p>
-<p id="theatres">Theatres: </p>
-<p id="BobsBoard"> Bob's board </p>
+<div id="AlicesBoard"> 
+<h3>Alice's board </h3> 
+<div id="AlicesBoard1">TBA</div>
+<div id="AlicesBoard2">TBA</div>
+<div id="AlicesBoard3">TBA</div>
+</div>
+<div id="theatres">
+<div id="theatre1">TBA</div>
+<div id="theatre2">TBA</div>
+<div id="theatre3">TBA</div>
+</div>
+<div id="BobsBoard"> 
+<h3>Bob's board</h3> 
+<div id="BobsBoard1">TBA</div>
+<div id="BobsBoard2">TBA</div>
+<div id="BobsBoard3">TBA</div>
+</div>
 
-<p id="BobsHand"> Bob's hand </p>
+<div  id="BobsHand"> 
+<h3>Bob's hand</h3>
+ </div >
 
   <button onclick="startFunc()"> Start </button>
 
   <script> 
     function startFunc(){
-        document.getElementById("theatres").innerHTML = "AIR \t | \t LAND \t | \t SEA";
+        document.getElementById("theatre1").innerHTML = "AIR";
+        document.getElementById("theatre2").innerHTML = "LAND";
+        document.getElementById("theatre3").innerHTML = "AIR";
         document.getElementById("BobsHand").innerHTML = "[6 cards]";
     }
     </script>
